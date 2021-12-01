@@ -292,3 +292,18 @@ JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, l
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1638339842760	Marionette	INFO	Stopped listening on port 37121
+1638339914048	geckodriver	INFO	Listening on 127.0.0.1:50663
+1638339914461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33593" "-no-remote" "-profile" "/tmp/rust_mozprofile3SbMBo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1638339920748	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3SbMBo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33593/devtools/browser/8229d8ca-ea0e-4289-ad5e-f42352792875
+1638339924535	Marionette	INFO	Listening on port 36309
+1638339924651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1638339931550	Marionette	INFO	Stopped listening on port 36309
