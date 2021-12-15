@@ -1461,3 +1461,18 @@ JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, l
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1639560665442	geckodriver	INFO	Listening on 127.0.0.1:39561
+1639560665944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53795" "-no-remote" "-profile" "/tmp/rust_mozprofileM7IyAo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1639560666673	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM7IyAo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53795/devtools/browser/7e34f13e-862a-4e83-9d1f-86f6fc4546a3
+1639560668428	Marionette	INFO	Listening on port 32893
+1639560668475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1639560677568	Marionette	INFO	Stopped listening on port 32893
