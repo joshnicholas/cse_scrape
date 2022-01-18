@@ -4045,3 +4045,18 @@ JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, l
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1642483859111	Marionette	INFO	Stopped listening on port 37603
+1642487577679	geckodriver	INFO	Listening on 127.0.0.1:41737
+1642487578080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "57617" "-no-remote" "-profile" "/tmp/rust_mozprofile75vVFm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1642487582128	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile75vVFm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57617/devtools/browser/a059fdc8-9bf2-4e41-b785-7b73fe44a78b
+1642487586130	Marionette	INFO	Listening on port 37295
+1642487586248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1642487592826	Marionette	INFO	Stopped listening on port 37295
