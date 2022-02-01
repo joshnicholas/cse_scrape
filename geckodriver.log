@@ -5194,3 +5194,21 @@ JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, l
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1643707742487	Marionette	INFO	Stopped listening on port 34127
+1643711462994	geckodriver	INFO	Listening on 127.0.0.1:38893
+1643711463302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52633" "-no-remote" "-profile" "/tmp/rust_mozprofilel00Cuw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1643711471198	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel00Cuw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52633/devtools/browser/cda23a81-4143-45c2-9bd9-caffe57538b0
+1643711476293	Marionette	INFO	Listening on port 45557
+1643711476395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills-es2015.3020b94c9deb9596b1d2.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1643711482605	Marionette	INFO	Stopped listening on port 45557
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
