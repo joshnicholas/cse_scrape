@@ -6989,3 +6989,18 @@ JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: 
 JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1645608318093	Marionette	INFO	Stopped listening on port 43713
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1645612333527	geckodriver	INFO	Listening on 127.0.0.1:55767
+1645612333863	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "39627" "-no-remote" "-profile" "/tmp/rust_mozprofileQVdad2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1645612341202	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQVdad2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39627/devtools/browser/ce9fad2a-f31f-478e-9fd0-3a9bf73e51b2
+1645612348629	Marionette	INFO	Listening on port 40921
+1645612348786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1645612356008	Marionette	INFO	Stopped listening on port 40921
