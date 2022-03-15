@@ -8441,3 +8441,21 @@ JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: 
 JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1647253989447	Marionette	INFO	Stopped listening on port 36327
+1647319179889	geckodriver	INFO	Listening on 127.0.0.1:38299
+1647319180331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "50525" "-no-remote" "-profile" "/tmp/rust_mozprofileEvRsZG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1647319184207	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEvRsZG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50525/devtools/browser/4040b7d8-31bc-4630-a81a-b338c72fbf61
+1647319187253	Marionette	INFO	Listening on port 43837
+1647319187310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1647319193488	Marionette	INFO	Stopped listening on port 43837
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
