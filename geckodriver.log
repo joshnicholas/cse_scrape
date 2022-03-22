@@ -9048,3 +9048,18 @@ JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: 
 JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1647934086053	Marionette	INFO	Stopped listening on port 37267
+1647938000575	geckodriver	INFO	Listening on 127.0.0.1:57405
+1647938000956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52595" "-no-remote" "-profile" "/tmp/rust_mozprofile0osQo5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1647938005561	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0osQo5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52595/devtools/browser/1534807b-b18f-48fb-bf00-a644460464e6
+1647938009651	Marionette	INFO	Listening on port 35879
+1647938009737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.53b64130b13d6b87437c.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1647938015840	Marionette	INFO	Stopped listening on port 35879
