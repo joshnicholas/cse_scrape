@@ -50,5 +50,6 @@ new = new.drop_duplicates(subset=['Symbol', 'Date'])
 with open("cse.csv", "w") as f:
     new.to_csv(f, header=True, index=False)
 
-
+# with open("cse.json", "w") as f:
+#     new.to_json(f)
 
