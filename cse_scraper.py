@@ -46,6 +46,7 @@ old = pd.read_csv('cse.csv')
 new = old.append(df)
 new = new.drop_duplicates(subset=['Symbol', 'Date'])
 
+print(new)
 
 with open("cse.csv", "w") as f:
     new.to_csv(f, header=True, index=False)
