@@ -11700,3 +11700,22 @@ JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: 
 JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1650868865809	Marionette	INFO	Stopped listening on port 37951
+1650871811633	geckodriver	INFO	Listening on 127.0.0.1:45297
+1650871812021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelLoKyC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1650871819014	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelLoKyC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53041/devtools/browser/a81de15c-6007-4dd5-9120-e236f3f4cf26
+1650871824643	Marionette	INFO	Listening on port 36709
+Read port: 36709
+1650871824806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1650871836515	Marionette	INFO	Stopped listening on port 36709
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
