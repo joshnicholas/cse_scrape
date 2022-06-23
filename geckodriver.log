@@ -16722,3 +16722,26 @@ JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: 
 1655960031066	Marionette	INFO	Stopped listening on port 35091
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655962424231	geckodriver	INFO	Listening on 127.0.0.1:56371
+1655962424442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY2unDj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1655962433171	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:37277
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY2unDj/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655962437297	Marionette	INFO	Listening on port 39585
+Read port: 39585
+1655962437430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:37277/devtools/browser/8c843fdf-f81a-4c42-9c45-8f2997312d45
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1655962448210	Marionette	INFO	Stopped listening on port 39585
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
