@@ -23675,3 +23675,31 @@ JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: 
 1666003698683	Marionette	INFO	Stopped listening on port 35953
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1666072098978	geckodriver	INFO	Listening on 127.0.0.1:33153
+1666072099387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "48185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV9Rwww"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1666072102644	Marionette	INFO	Marionette enabled
+1666072102656	Marionette	INFO	Listening on port 36307
+Read port: 36307
+WebDriver BiDi listening on ws://127.0.0.1:48185
+1666072103310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV9Rwww/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:48185/devtools/browser/79c5fa79-770a-4055-9000-4ebfc8612b48
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1666072116397	Marionette	INFO	Stopped listening on port 36307
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
