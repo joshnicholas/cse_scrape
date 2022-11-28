@@ -29425,3 +29425,27 @@ JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: 
 JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
 1669620306342	Marionette	INFO	Stopped listening on port 34711
+1669624479465	geckodriver	INFO	Listening on 127.0.0.1:54699
+1669624479859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileN9OUOI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669624484240	Marionette	INFO	Marionette enabled
+1669624484254	Marionette	INFO	Listening on port 35547
+Read port: 35547
+WebDriver BiDi listening on ws://127.0.0.1:59899
+1669624484977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN9OUOI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59899/devtools/browser/2cee769a-2f9d-42f3-b64a-8d9840e0c97a
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.cse.lk/assets/dflip/js/dflip.min.js, line 9: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+JavaScript error: https://www.cse.lk/polyfills.4e3216da8ea0b642b681.js, line 1: NotSupportedError: CustomElementRegistry.define: 'df-message-list' has already been defined as a custom element
+1669624500063	Marionette	INFO	Stopped listening on port 35547
