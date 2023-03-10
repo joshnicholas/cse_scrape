@@ -64,8 +64,8 @@ r = requests.post('https://www.cse.lk/api/tradeSummary', cookies=cookies, header
 
 #%%
 
-print(r.text)
-print(r.status_code)
+# print(r.text)
+# print(r.status_code)
 # %%
 
 
