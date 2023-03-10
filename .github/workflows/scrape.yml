@@ -23,7 +23,7 @@ jobs:
         run: pip install -r reqs.txt
         
       - name: 🍳 Update dataset
-        run: python cse_scraper.py
+        run: python new_cse_scraper.py
         
       - name: 🚀 Commit and push if it changed
         run: |

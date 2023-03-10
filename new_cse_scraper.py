@@ -5,11 +5,15 @@ import requests
 import datetime 
 import pytz
 
+import json
+import pandas as pd
+
 utc_now = pytz.utc.localize(datetime.datetime.utcnow())
 today = utc_now.astimezone(pytz.timezone("Asia/Colombo"))
 
 
 today_stem = today.strftime('%Y%m%d')
+scrape_time = datetime.datetime.utcnow()
 today = today.strftime('%Y-%m-%d')
 
 
@@ -62,4 +66,37 @@ r = requests.post('https://www.cse.lk/api/tradeSummary', cookies=cookies, header
 
 print(r.text)
 print(r.status_code)
+# %%
+
+
+jsony = json.loads(r.text)
+
+listo = jsony['reqTradeSummery']
+
+if len(listo) > 1:
+    df = pd.DataFrame.from_records(listo)
+
+    df['Scrape_time'] = scrape_time
+    df['Date'] = today
+
+    with open(f'daily_dumps/{today_stem}.csv', 'w') as f:
+        df.to_csv(f, index=False, header=True)
+
+
+    old = pd.read_csv('cse.csv')
+    old['Scrape_time']  = pd.to_datetime(old['Scrape_time'] )
+
+    tog = pd.concat([old, df])
+    tog['Scrape_time'] = pd.to_datetime(tog['Scrape_time'])
+    tog.sort_values(by=['Scrape_time'], ascending=False, inplace=True)
+
+    tog.drop_duplicates(subset=['name', 'Date'], keep='first', inplace=True)
+
+    with open('cse.csv', 'w') as f:
+        tog.to_csv(f, index=False, header=True)
+
+
+    # print(df)
+
+# print(jsony.keys())
 # %%
